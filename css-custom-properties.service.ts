@@ -8,7 +8,7 @@ export class CssVariablesService {
 		try {
 			const root: HTMLElement = document.documentElement;
 			const value: string = getComputedStyle(root).getPropertyValue(propertyName);
-			return value ? value : null;
+			return value ? value.trim() : null;
 		} catch(ex) { return null; }
 	}
 
