@@ -1,3 +1,3 @@
-# Angular CSS Variables Service
+# Angular CSS Variables Utility
 
-> Angular Service for getting and changing css custom properties (variables)
+> Angular utility for getting and changing css custom properties (variables)
