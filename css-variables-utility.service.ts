@@ -2,7 +2,7 @@
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class CssVariablesService {
+export class CssVariablesUtility {
 
 	public getValue(propertyName: string): string | null {
 		try {
